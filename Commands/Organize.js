@@ -1,5 +1,6 @@
 let fs = require("fs");
 let p = require("path");
+
 //TEMP CODE
 let input = process.argv.slice(2);
 var dir = input[0];
