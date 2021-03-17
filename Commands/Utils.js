@@ -1,7 +1,7 @@
 let types = {
-  media: ["mp4", "mkv", "mp3"],
-  archives: ["zip", "7z", "rar", "tar", "gz", "ar", "iso", "xz"],
-  documents: [
+  Media: ["mp4", "mkv", "mp3"],
+  Archives: ["zip", "7z", "rar", "tar", "gz", "ar", "iso", "xz"],
+  Documents: [
     "docx",
     "doc",
     "pdf",
@@ -16,5 +16,9 @@ let types = {
     "ps",
     "tex",
   ],
-  app: ["exe", "dmg", "pkg", "deb"],
+  App: ["exe", "dmg", "pkg", "deb"],
+};
+
+module.exports = {
+  typesObject: types,
 };
